@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html leng="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
- 
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:ital,wght@1,300&family=Roboto&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="css/bootstrap.min.css">
  
@@ -14,90 +16,68 @@
   
   <link rel="stylesheet" href="style.css">
   <title> first bootstrap practice</title>
-  
- 
-</head>
+ </head>
 <body>
-  <div class="container">
-  <div id="top-heder"class="">
-    <div class= "text-start pt-4 col-md-6 sm-12"><h1 style="font-size:18px">Abacus Convention Center</h1> </div>
-    <div class="col-md-6 sm-12 pt-3">
-      <a href=""><button class="btn">Home</button></a>
-      
-       <a href=""><button class="btn"> About Us</button></a>
-       
-        <a href=""><button class="btn">Contact</button></a>
-        
-         <a href=""><button class="btn"> Home</button></a>
-    </div>
-    </div>
-  </div>
-</div>
-</div>
-<div class="slide">
-<div id="carouselExampleIndicators" class="carousel slideshow ExampleIndicators" data-bs-ride="carousel" data-bs-slide="true">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/1img.png" class="d-block w-100" alt="...">
-      <div class="carousel-caption">
-        <h2>The perfect venue for your<br> next event</h2>
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua<br>dolor do amet sint. Velit officia consequat duis enim velit </p>
-        <button type="submit"class="btn btn-primary btn-lg">Book Now</button>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="img/img2.png" class="d-block w-100" alt="...">
-      <div class="carousel-caption">
-        <h2>The perfect venue for your<br> next event</h2>
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua<br>dolor do amet sint. Velit officia consequat duis enim velit </p>
-        <button type="submit"class="btn btn-primary btn-lg">Book Now</button>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="img/img3.png" class="d-block w-100" alt="...">
-      <div class="carousel-caption">
-        <h2>The perfect venue for your<br> next event</h2>
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua<br>dolor do amet sint. Velit officia consequat duis enim velit </p>
-        <button type="submit"class="btn btn-primary btn-lg">Book Now</button>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="img/img4.png" class="d-block w-100" alt="...">
-      <div class="carousel-caption">
-        <h2>The perfect venue for your<br> next event</h2>
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua<br>dolor do amet sint. Velit officia consequat duis enim velit </p>
-        <button type="submit"class="btn btn-primary btn-lg">Book Now</button>
-      </div>
+<div class="container">
+<header>
+  
+  <nav class="navbar navbar-expand-md">
+  <div class="container-fluid">
+  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars navbar-icon"></i></span>
+    </button>
+    
+      <a class="navbar-brand" href="#"> <img src="img/logo.png" alt="logo"></a>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link text-center test-md-left" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-center test-md-left" href="#">Service</a>
+        </li>
+        <li class="nav-item text-center test-md-left">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-center test-md-left" href="#">Feed Back</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-center test-md-left" href="#">Sing Up</a>
+        </li>
+      </ul>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div>
-<div class=" row">
-    <div class="col-6">
-    <img src="img/mid img.jpg"alt="">
-    </div>
-    <div class="col-5 text-center pl-15">
-      <h1>Every moment is Precious </h1>
-      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-    </div>
+</nav>
+<section class="baner-container d-flex justify-content-center align-itmes-center">
+  <div class="baner-contan text-center">
+    <h1 class="font-weight-bolder text-white mb-5"> Buy Something New!!!</h1>
+    <button class="btn btn-primary"><i class="fa fa-shopping-cart"></i>
+     Buy Now
+    </button>
+    <button class="btn btn-primary ms-5">
+      <i class="fab fa-product-hunt"> Product</i>
+    </button>
   </div>
+</section>
+ 
+</header>
 
+<main>
+  
+  
+  
+</main>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<footer>
+  
+  
+</footer>
+</div>
+
+<script src="js/bootstrap.bundle.js">
+</script> 
 </body>
 </html>
